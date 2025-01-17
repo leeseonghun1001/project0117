@@ -1,0 +1,268 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poiret+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+body {
+  font-family: "Noto Sans KR", serif;
+  /* background-color: #cdcdcd; */
+}
+/* 전체 레이아웃 */
+.wrap{
+  /* max-width: 1400px; */
+margin: 0 auto;
+}
+/* 공통영역 */
+.container {
+  width: 100%;
+  margin: auto;
+  max-width: 1400px;
+  /* background-color: silver; */
+}
+/* 상단 */
+.header {
+  position: relative;
+  display: block;
+  /* margin-top:10px ; */
+  width: 100%;
+  height: 114px;
+  z-index: 999;
+  
+  /* background-color: antiquewhite; */
+}
+.header_inner {
+  position: relative;
+  width: 100%;
+  /* max-width: 1800px; */
+  margin: auto;
+  z-index: 1;
+  
+}
+.header_top {
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+  /* margin-bottom: 10px; */
+}
+/* 로고 */
+.header_top .logo {
+  width: 200px;
+  height: 100%;
+}
+.header_top .logo a {
+  width: 100%;
+  padding: 10px;
+  /* height: 100%; */
+}
+.header_top .logo a img {
+  width: 100%;
+  /* height: 100%; */
+  display: block;
+  object-fit: cover;
+  overflow: hidden;
+}
+/* 서브 메뉴 util */
+.header_top .top_util {
+  /* margin-right: 10px; */
+}
+.header_top .top_util .util {
+  margin: 5px 0;
+  display: flex;
+}
+.header_top .top_util .util li {
+}
+.header_top .top_util .util li a {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+.header_top .top_util .util li a:hover {
+  text-decoration: underline;
+}
+/* 상단 아래쪽 */
+.header_bottom {
+  width: 100%;
+  height: 52px;
+  background-color: #062f59;
+  
+}
+
+.menu {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+}
+.menu .gnb {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  
+}
+/* .header_bottom:hover .depth2 {
+    height: calc(52px + 380px);
+  } */
+.menu .gnb > li {
+  width: calc(100% / 6);
+  height: 100%;
+  text-align: center;
+}
+.menu .gnb > li > a {
+  padding: 10px 2px;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  line-height: 26px;
+  font-size: 19px;
+  
+}
+/* depth2 */
+.depth2 {
+  display: none;
+  width: 100%;
+  height: calc(52px + 360px);
+  padding: 10px;
+  text-align: center;
+background-color: rgba(0, 0, 0, .7);
+}
+.depth2 > li {
+  width: 100%;
+ /* height: 36px; */
+  padding: 10px;
+  
+}
+.depth2 > li > a {
+  width: 100%;
+  /* height: 100%; */
+  color: #fff;
+  font-size: 16px;
+}
+/* 비주얼 */
+.visual{
+  width: 100%;
+}
+.daegun_banner{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 31.45vw;
+  overflow: hidden;
+}
+.daegun_banner .swiper-slide{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.daegun_banner .swiper-slide img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  
+}
+.daegun_banner .banner_txt{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.banner_txt p{
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: bold;
+  color: #386895;
+}
+/* 컨텐츠 및 일정 */
+.content{
+  position: relative;
+  width: 100%;
+  background-color: #ededed;
+}
+.content > div{
+  padding: 10px;
+}
+.content_inner{
+  position: relative;
+  /* display: flex; */
+}
+/* 공지사항/가정통신문 */
+.c{
+  width: 45%;
+  /* height: 500px; */
+  background-color: aquamarine;
+}
+.c1{
+  margin-left: 20px;
+  position: relative;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: flex-start;
+}
+
+.c1 h4 {
+  width: 20%;
+  margin:0 10px;
+  padding: 10px;
+  text-align: center;
+  /* line-height: 28px; */
+  font-size: 1.3vw;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #333;
+  cursor: pointer;
+  font-weight: bold;
+  color: #adadad;
+}
+.c1 h4.on {
+  background-color: #ee8100;
+  color: #fff;
+}
+.c1 h4:first-child{
+  margin-right: 0;
+}
+.c1 .notice2_title{
+  margin-left: 0;
+}
+.c1 ul{
+  width: 100%;
+  position: absolute;
+  top: 49px;
+  left: 0;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  display: none;
+}
+.c1 ul.on{
+  display: block;
+}
+/* 공지사항 */
+.c1 ul li{
+  width: 100%;
+}
+.c1 ul li a{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 1.2vw;
+}
+.c1 ul li a .date{
+  color: #999999;
+}
+
