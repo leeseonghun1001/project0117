@@ -24,10 +24,12 @@
     <!-- 소셜 미디어에서 페이지가 공유될 때 사용되는 설명 -->
     <meta property="og:description" content="대건중학교 웹사이트입니다." />
     <!-- css 연결 -->
+    <!-- reset css 연결 -->
     <link rel="stylesheet" href="css/reset.css" />
-    <!-- Link Swiper's CSS -->
+    <!-- Link Swiper's CSS 연결 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- design css 연결 -->
+    <link rel="stylesheet" href="css/main.css" />
     <!-- js -->
     <!-- js query -->
     <script src="js/jquery-1.12.3.js"></script>
@@ -218,7 +220,6 @@
                     <span class="date"> 2024. 09. 24</span>
                   </a>
                 </li>
-                
               </ul>
               <!-- 가정통신문 -->
               <h4 class="notice2_title">가정통신문</h4>
@@ -305,11 +306,113 @@
         </div>
       </section>
       <!-- 뉴스 -->
-      <section class="news">뉴스</section>
+      <section class="news">
+        <div class="news_inner container">
+          <!-- 제목 -->
+          <div class="news_title">
+            <h2>학교소식</h2>
+          </div>
+          <!-- swiper -->
+          <div class="section_swiper">
+            <div class="swiper school_news">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="news_img">
+                      <img src="images/news_images 1.png" alt="학교소식1" />
+                    </div>
+                    <div class="news_text">
+                      <p>2024 겨울방학 중국어 캠프</p>
+                      <p>2025. 01. 03</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="news_img">
+                      <img src="images/news_images 2.png" alt="학교소식2" />
+                    </div>
+                    <div class="news_text">
+                      <p>2024 겨울방학 영어 캠프</p>
+                      <p>2025. 01. 03</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="news_img">
+                      <img src="images/news_images 3.png" alt="학교소식3" />
+                    </div>
+                    <div class="news_text">
+                      <p>1학년 진로직업체험활동</p>
+                      <p>2024. 12. 24</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- cs -->
-      <section class="cs"></section>
+      <section class="cs">
+        <div class="cs_inner container">
+          <ul class="cs_nav">
+            <li>
+              <a href="#">
+                <div class="cs_img">
+                  <img src="images/cs-icon 1.png" alt="학교알리미" />
+                </div>
+                <p>학교알리미</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cs_img">
+                  <img src="images/cs-icon 2.png" alt="각종양식" />
+                </div>
+                <p>각종양식</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="cs_img">
+                  <img src="images/cs-icon 3.png" alt="찾아오시는길" />
+                </div>
+                <p>찾아오시는길</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
       <!-- 하단 -->
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer_inner container">
+          <nav class="footer_nav">
+            <ul>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">저작권보호정책</a></li>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">이메일주소무단수집거부</a></li>
+              <li><a href="#">영상정보처리기기운영방침</a></li>
+            </ul>
+          </nav>
+          <div class="footer_info">
+            <div class="address">
+              <p>( 42726 ) 대구광역시 달서구 월곡로94길 46</p>
+            </div>
+            <div class="tel">
+              <p>Tel : 교무실: 053-234-8808 행정실:053-234-8770</p>
+            </div>
+            <div class="fax">
+              <p>Fax : 053-637-8401</p>
+            </div>
+          </div>
+          <div class="copylighter">
+            <p>Copyright Daegu Future Education Research Institute All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

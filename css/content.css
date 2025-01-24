@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* 컨텐츠 및 일정 */
+.content{
+    padding: 50px;
+    position: relative;
+    /* display: flex; */
+    width: 100%;
+    /* height: 500px; */
+    background-color: #cdcdcd;
+  }
+  .content > div{
+    padding: 10px;
+  }
+  .content_inner{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+   
+    /* gap: 10px; */
+  }
+  /* 컨텐츠 왼쪽 */
+  .content-left{
+    position: relative;
+    
+    width: 50%;
+    /* background-color: #ee8100; */
+   
+  }
+  
+  /* 공지사항/가정통신문 */
+  .c{
+    width: 100%;
+    /* height: 23vw; */
+  }
+  .c1{
+    position: relative;
+    display: flex;
+  }
+  
+  .c1 h4 {
+    width: 25%;
+    height: 45px;
+    margin:0 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #333;
+    cursor: pointer;
+    font-weight: bold;
+    color: #adadad;
+  }
+  .c1 h4.on {
+    background-color: #ee8100;
+    color: #fff;
+  }
+  .c1 h4:first-child{
+    margin-right: 0;
+  }
+  .c1 .notice2_title{
+    margin-left: 0;
+  }
+  .c1 ul{
+    width: 100%;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    background-color: #fff;
+    display: none;
+  }
+  .c1 ul.on{
+    display: block;
+  }
+  /* 공지사항 */
+  .c1 ul li{
+    width: 100%;
+  }
+  .c1 ul li a{
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+  }
+  .notice_txt{
+    display: block;
+    width: 70%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .c1 ul li a .date{
+    color: #999999;
+  }
+  /* 컨텐츠 오른쪽 */
+  .content-right{
+    position: relative;
+    width: 35%;
+  }
+  .schedule{
+    position: relative;
+    width: 100%;
+    /* background-color: #fff; */
+  }
+  .schedule > h3{
+    width: 80%;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    background-color: #005195;
+    text-align: center;
+    padding: 9px 0;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  .schedule_list{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  border-top: 0;
+    background-color: #566685;
+    
+  }
+  .schedule_list li{
+    padding: 15px;
+  }
+  .schedule_list li a > span:first-child {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  }
+  .date1{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  .date1 span{
+    font-size: 16px;
+    color: rgba(255, 255, 255, .3);
+  }

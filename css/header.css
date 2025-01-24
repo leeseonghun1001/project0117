@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* 상단 */
+.header {
+    position: relative;
+    display: block;
+    /* margin-top:10px ; */
+    width: 100%;
+    height: 114px;
+    z-index: 999;
+    
+    /* background-color: antiquewhite; */
+  }
+  .header_inner {
+    position: relative;
+    width: 100%;
+    /* max-width: 1800px; */
+    margin: auto;
+    z-index: 1;
+    
+  }
+  .header_top {
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    /* margin-bottom: 10px; */
+  }
+  /* 로고 */
+  .header_top .logo {
+    width: 200px;
+    height: 100%;
+  }
+  .header_top .logo a {
+    width: 100%;
+    padding: 10px;
+    /* height: 100%; */
+  }
+  .header_top .logo a img {
+    width: 100%;
+    /* height: 100%; */
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  /* 서브 메뉴 util */
+  .header_top .top_util {
+    /* margin-right: 10px; */
+  }
+  .header_top .top_util .util {
+    margin: 5px 0;
+    display: flex;
+  }
+  .header_top .top_util .util li {
+  }
+  .header_top .top_util .util li a {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .header_top .top_util .util li a:hover {
+    text-decoration: underline;
+  }
+  /* 상단 아래쪽 */
+  .header_bottom {
+    width: 100%;
+    height: 52px;
+    background-color: #168BD6;
+    
+  }
+  
+  .menu {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .menu .gnb {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+  }
+  /* .header_bottom:hover .depth2 {
+      height: calc(52px + 380px);
+    } */
+  .menu .gnb > li {
+    width: calc(100% / 6);
+    height: 100%;
+    text-align: center;
+  }
+  .menu .gnb > li > a {
+    padding: 10px 2px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    line-height: 26px;
+    font-size: 19px;
+    
+  }
+  /* depth2 */
+  .depth2 {
+    display: none;
+    width: 100%;
+    height: calc(52px + 360px);
+    padding: 10px;
+    text-align: center;
+  background-color: rgba(0, 0, 0, .7);
+  }
+  .depth2 > li {
+    width: 100%;
+   /* height: 36px; */
+    padding: 10px;
+    
+  }
+  .depth2 > li > a {
+    width: 100%;
+    /* height: 100%; */
+    color: #fff;
+    font-size: 16px;
+  }
