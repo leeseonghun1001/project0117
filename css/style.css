@@ -95,7 +95,7 @@ margin: 0 auto;
 .header_bottom {
   width: 100%;
   height: 52px;
-  background-color: #062f59;
+  background-color: #168BD6;
   
 }
 
@@ -220,7 +220,7 @@ background-color: rgba(0, 0, 0, .7);
   padding: 10px;
   text-align: center;
   /* line-height: 28px; */
-  font-size: 1.3vw;
+  font-size: 20px;
   background-color: #fff;
   border-radius: 5px;
   border: 1px solid #333;
@@ -260,7 +260,7 @@ background-color: rgba(0, 0, 0, .7);
   display: flex;
   justify-content: space-between;
   padding: 15px;
-  font-size: 1.2vw;
+  font-size: 18px;
 }
 .c1 ul li a .date{
   color: #999999;
