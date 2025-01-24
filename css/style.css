@@ -26,7 +26,7 @@ margin: 0 auto;
 /* 공통영역 */
 .container {
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   max-width: 1400px;
   /* background-color: silver; */
 }
@@ -171,9 +171,9 @@ background-color: rgba(0, 0, 0, .7);
   top: 50%;
   left: 50%;
   transform: translate(-50% , -50%);
-  display: block;
+  /* display: block; */
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   
 }
 .daegun_banner .banner_txt{
@@ -189,8 +189,11 @@ background-color: rgba(0, 0, 0, .7);
 }
 /* 컨텐츠 및 일정 */
 .content{
+  padding: 50px;
   position: relative;
+  /* display: flex; */
   width: 100%;
+  /* height: 500px; */
   background-color: #ededed;
 }
 .content > div{
@@ -198,29 +201,37 @@ background-color: rgba(0, 0, 0, .7);
 }
 .content_inner{
   position: relative;
-  /* display: flex; */
+  display: flex;
+  justify-content: space-around;
+ 
+  /* gap: 10px; */
 }
+/* 컨텐츠 왼쪽 */
+.content-left{
+  position: relative;
+  
+  width: 50%;
+  /* background-color: #ee8100; */
+ 
+}
+
 /* 공지사항/가정통신문 */
 .c{
-  width: 45%;
-  /* height: 500px; */
-  background-color: aquamarine;
+  width: 100%;
+  /* height: 23vw; */
 }
 .c1{
-  margin-left: 20px;
   position: relative;
   display: flex;
-  /* flex-direction: column; */
-  align-items: flex-start;
 }
 
 .c1 h4 {
   width: 20%;
+  height: 45px;
   margin:0 10px;
   padding: 10px;
   text-align: center;
-  /* line-height: 28px; */
-  font-size: 20px;
+  font-size: 24px;
   background-color: #fff;
   border-radius: 5px;
   border: 1px solid #333;
@@ -241,11 +252,12 @@ background-color: rgba(0, 0, 0, .7);
 .c1 ul{
   width: 100%;
   position: absolute;
-  top: 49px;
+  top: 42px;
   left: 0;
   padding: 10px;
-  border: 1px solid #333;
+  border: 1px solid rgba(0, 0, 0, .5);
   border-radius: 10px;
+  background-color: #fff;
   display: none;
 }
 .c1 ul.on{
@@ -256,13 +268,61 @@ background-color: rgba(0, 0, 0, .7);
   width: 100%;
 }
 .c1 ul li a{
+  display: block;
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 15px;
-  font-size: 18px;
+  font-size: 20px;
+}
+.notice_txt{
+  display: block;
+  width: 70%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .c1 ul li a .date{
   color: #999999;
 }
-
+/* 컨텐츠 오른쪽 */
+.content-right{
+  position: relative;
+  width: 30%;
+}
+.schedule{
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+}
+.schedule > h3{
+  width: 80%;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  background-color: #005195;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+.schedule_list{
+width: 100%;
+  background-color: antiquewhite;
+  
+}
+.schedule_list li{
+  padding: 15px;
+}
+.schedule_list li a > span:first-child {
+font-size: 20px;
+font-weight: bold;
+}
+.date1{
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.date1 span{
+  font-size: 16px;
+  color: rgba(0, 0, 0, .3);
+}
