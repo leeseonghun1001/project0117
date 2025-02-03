@@ -18,7 +18,7 @@ justify-content: space-around;
 }
 .cs_nav  li a p{
     text-align: center;
-    font-size: 25px;
+    font-size: 3rem;
     font-weight: 700;
     color: #fff;
 }
