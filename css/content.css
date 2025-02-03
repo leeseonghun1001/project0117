@@ -79,6 +79,9 @@
 .c1 ul li {
   width: 100%;
 }
+.c1 ul li:hover a span:first-child{
+  text-decoration: underline;
+}
 .c1 ul li a {
   display: block;
   width: 100%;

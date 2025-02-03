@@ -36,3 +36,37 @@
 .footer_info, .copylighter{
     color: rgba(0, 0, 0, .3);
 }
+@media screen and (max-width: 910px){
+    .footer{
+        font-size: 1.8rem;
+    }
+    .footer_info{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    .footer{
+        font-size: 14px;
+    }
+    .footer_inner{
+        padding-left: 10px;
+    }
+    .footer_nav ul{
+        flex-wrap: wrap;
+    }
+    .footer_nav ul li{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 390px){
+    .footer{
+        font-size: 12px;
+    }
+    .footer_inner{
+        gap: 15px;
+    }
+    .footer_info{
+        gap: 10px;
+    }
+}

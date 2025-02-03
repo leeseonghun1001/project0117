@@ -34,6 +34,7 @@
   }
   .banner_txt p{
     font-size: 4rem;
+    /* text-shadow: white; */
     line-height: 1.4;
     font-weight: bold;
     color: #386895;
