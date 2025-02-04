@@ -19,9 +19,9 @@ body {
   /* background-color: #cdcdcd; */
 }
 /* 전체 레이아웃 */
-.wrap{
+.wrap {
   /* max-width: 1400px; */
-margin: 0 auto;
+  margin: 0 auto;
 }
 /* 공통영역 */
 .container {
@@ -38,7 +38,7 @@ margin: 0 auto;
   width: 100%;
   height: 114px;
   z-index: 999;
-  
+
   /* background-color: antiquewhite; */
 }
 .header_inner {
@@ -47,7 +47,6 @@ margin: 0 auto;
   /* max-width: 1800px; */
   margin: auto;
   z-index: 1;
-  
 }
 .header_top {
   display: flex;
@@ -95,22 +94,19 @@ margin: 0 auto;
 .header_bottom {
   width: 100%;
   height: 52px;
-  background-color: #168BD6;
-  
+  background-color: #168bd6;
 }
 
 .menu {
   position: relative;
   width: 100%;
   height: 100%;
-  
 }
 .menu .gnb {
   width: 100%;
   display: flex;
   justify-content: center;
   height: 100%;
-  
 }
 /* .header_bottom:hover .depth2 {
     height: calc(52px + 380px);
@@ -127,7 +123,6 @@ margin: 0 auto;
   color: #fff;
   line-height: 26px;
   font-size: 19px;
-  
 }
 /* depth2 */
 .depth2 {
@@ -136,13 +131,12 @@ margin: 0 auto;
   height: calc(52px + 360px);
   padding: 10px;
   text-align: center;
-background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .depth2 > li {
   width: 100%;
- /* height: 36px; */
+  /* height: 36px; */
   padding: 10px;
-  
 }
 .depth2 > li > a {
   width: 100%;
@@ -151,44 +145,43 @@ background-color: rgba(0, 0, 0, .7);
   font-size: 16px;
 }
 /* 비주얼 */
-.visual{
+.visual {
   width: 100%;
 }
-.daegun_banner{
+.daegun_banner {
   display: block;
   position: relative;
   width: 100%;
   height: 31.45vw;
   overflow: hidden;
 }
-.daegun_banner .swiper-slide{
+.daegun_banner .swiper-slide {
   position: relative;
   width: 100%;
   height: 100%;
 }
-.daegun_banner .swiper-slide img{
+.daegun_banner .swiper-slide img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
   /* display: block; */
   width: 100%;
   /* object-fit: cover; */
-  
 }
-.daegun_banner .banner_txt{
+.daegun_banner .banner_txt {
   position: absolute;
   top: 5%;
   left: 5%;
 }
-.banner_txt p{
+.banner_txt p {
   font-size: 30px;
   line-height: 1.4;
   font-weight: bold;
   color: #386895;
 }
 /* 컨텐츠 및 일정 */
-.content{
+.content {
   padding: 50px;
   position: relative;
   /* display: flex; */
@@ -196,31 +189,30 @@ background-color: rgba(0, 0, 0, .7);
   /* height: 500px; */
   background-color: #ededed;
 }
-.content > div{
+.content > div {
   padding: 10px;
 }
-.content_inner{
+.content_inner {
   position: relative;
   display: flex;
   justify-content: space-around;
- 
+
   /* gap: 10px; */
 }
 /* 컨텐츠 왼쪽 */
-.content-left{
+.content-left {
   position: relative;
-  
+
   width: 50%;
   /* background-color: #ee8100; */
- 
 }
 
 /* 공지사항/가정통신문 */
-.c{
+.c {
   width: 100%;
   /* height: 23vw; */
 }
-.c1{
+.c1 {
   position: relative;
   display: flex;
 }
@@ -228,7 +220,7 @@ background-color: rgba(0, 0, 0, .7);
 .c1 h4 {
   width: 20%;
   height: 45px;
-  margin:0 10px;
+  margin: 0 10px;
   padding: 10px;
   text-align: center;
   font-size: 24px;
@@ -243,31 +235,31 @@ background-color: rgba(0, 0, 0, .7);
   background-color: #ee8100;
   color: #fff;
 }
-.c1 h4:first-child{
+.c1 h4:first-child {
   margin-right: 0;
 }
-.c1 .notice2_title{
+.c1 .notice2_title {
   margin-left: 0;
 }
-.c1 ul{
+.c1 ul {
   width: 100%;
   position: absolute;
   top: 42px;
   left: 0;
   padding: 10px;
-  border: 1px solid rgba(0, 0, 0, .5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   background-color: #fff;
   display: none;
 }
-.c1 ul.on{
+.c1 ul.on {
   display: block;
 }
 /* 공지사항 */
-.c1 ul li{
+.c1 ul li {
   width: 100%;
 }
-.c1 ul li a{
+.c1 ul li a {
   display: block;
   width: 100%;
   display: flex;
@@ -275,27 +267,27 @@ background-color: rgba(0, 0, 0, .7);
   padding: 15px;
   font-size: 20px;
 }
-.notice_txt{
+.notice_txt {
   display: block;
   width: 70%;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
-.c1 ul li a .date{
+.c1 ul li a .date {
   color: #999999;
 }
 /* 컨텐츠 오른쪽 */
-.content-right{
+.content-right {
   position: relative;
   width: 30%;
 }
-.schedule{
+.schedule {
   position: relative;
   width: 100%;
   /* background-color: #fff; */
 }
-.schedule > h3{
+.schedule > h3 {
   width: 80%;
   font-weight: 700;
   font-size: 30px;
@@ -308,28 +300,27 @@ background-color: rgba(0, 0, 0, .7);
   margin: 0 auto;
   z-index: 1;
 }
-.schedule_list{
-width: 100%;
-border: 2px solid #fff;
-border-radius: 10px;
-border-top: 0;
+.schedule_list {
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  border-top: 0;
   background-color: #566685;
-  
 }
-.schedule_list li{
+.schedule_list li {
   padding: 15px;
 }
 .schedule_list li a > span:first-child {
-font-size: 20px;
-font-weight: bold;
-color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
 }
-.date1{
+.date1 {
   margin-top: 10px;
   display: flex;
   gap: 10px;
 }
-.date1 span{
+.date1 span {
   font-size: 16px;
-  color: rgba(255, 255, 255, .3);
+  color: rgba(255, 255, 255, 0.3);
 }
