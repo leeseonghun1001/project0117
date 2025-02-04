@@ -110,7 +110,7 @@
   cursor: pointer;
 }
 .depth2 > li:hover a {
-  color: red;
+  color: #168bd6;
 }
 .depth2 > li > a {
   width: 100%;
@@ -253,6 +253,6 @@ border-bottom: 2px solid #ddd;
 }
 @media screen and (max-width : 390px){
   .mobile_header_wrap{
-    padding: 10px 0;
+    padding: 20px 0;
   }
 }
