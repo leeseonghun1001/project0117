@@ -32,12 +32,18 @@ $(document).ready(function () {
     );
   });
   //모바일 메뉴 세부내용 나타내기.
-  $(".gnb > li").hover(
-    function () {
-      $(this).find(".mb_depth2").stop().slideDown();
-    },
-    function () {
-      $(this).find(".mb_depth2").stop().slideUp();
-    }
-  );
+  // $(".gnb > li").hover(
+  //   function () {
+  //     $(this).find(".mb_depth2").stop().slideDown();
+  //   },
+  //   function () {
+  //     $(this).find(".mb_depth2").stop().slideUp();
+  //   }
+  // );
+  //모바일 메뉴 세부내용 나타내기.
+  $(".gnb > li").click(function () {
+   
+    $(".mb_depth2").stop().slideUp(); // 다른 열린 메뉴 닫기
+    $(this).find(".mb_depth2").stop().slideToggle(); // 현재 메뉴 열기/닫기
+  });
 });
