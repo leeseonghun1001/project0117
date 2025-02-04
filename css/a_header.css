@@ -123,7 +123,87 @@
   height: 9.24vw;
   display: none;
 }
-
+/* 모바일용 메뉴 */
+.mobile-nav{
+  position: fixed;
+  display: none;
+  top: 0;
+  left: -1000px;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  font-size: 20px;
+  /* z-index: 99999999; */
+}
+.mobile-nav > h4{
+  font-size: 3.5rem;
+  padding: 10px;
+}
+.mobile-nav .snb{
+  background-color: #168bd6;
+}
+.snb ul li{
+  padding: 10px; 
+}
+.snb ul li:hover a{
+  text-decoration: underline;
+}
+.snb ul li a{
+  font-size: 2.2rem;
+  color: #fff;
+}
+.mobile-nav .snb .mb_util{
+  display: flex;
+  justify-content: space-around;
+}
+.mobile-nav .gnb_wrap{
+  height: 85%;
+  overflow-y: auto;
+}
+.mobile-nav .gnb_wrap .gnb{
+  display: flex;
+  flex-direction: column;
+  /* height: 2500px; */
+}
+.mobile-nav .gnb_wrap .gnb > li{
+border-bottom: 2px solid #ddd;
+}
+.mobile-nav .gnb_wrap .gnb > li:hover{
+  border-bottom: 2px solid #168bd6;
+}
+.mobile-nav .gnb_wrap .gnb > li > a{
+  /* display: block; */
+  /* width: 100%; */
+  margin: 15px 10px;
+  font-size: 2.5rem;
+}
+.mobile-nav .gnb_wrap .gnb > li:hover > a{
+  color: #168bd6;
+}
+.gnb .mb_depth2{
+  display: none;
+  background-color: #eee;
+  /* margin: 10px 0; */
+  padding-bottom: 10px;
+}
+.gnb .mb_depth2 > li{
+  margin: 0 10px;
+  padding-top: 10px;
+}
+.gnb .mb_depth2 > li:hover > a{
+  color: #168bd6;
+}
+.gnb .mb_depth2 > li > a{
+  font-size: 2.2rem;
+}
+/* 닫기버튼 */
+.close-menu {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
 @media screen and (max-width: 768px) {
   .header {
     width: 100%;
@@ -160,4 +240,8 @@
   .mobile_header li a img {
     width: 100%;
   }
+  .mobile-nav{
+    display: block;
+  }
+  
 }

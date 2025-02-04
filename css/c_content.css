@@ -201,9 +201,6 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .content_inner {
-    flex-direction: column;
-  }
   .content-left,
   .content-right {
     width: 100%;
@@ -213,57 +210,15 @@
     height: 310px;
   }
   .content_inner {
-    height: 100vh;
+    height: 800px;
     flex-direction: column;
     justify-content: flex-start;
-  }
-  .content-left,
-  .content-right {
-    width: 100%;
   }
   .content-right {
     top: 350px;
   }
   .c1 h4 {
-    font-size: 3.5rem;
-  }
-  .c1 ul li a {
-    font-size: 2.5rem;
-  }
-  .schedule > h3 {
-    width: 50%;
-    font-size: 4rem;
-  }
-  .schedule_list li a > span:first-child {
-    font-size: 3rem;
-  }
-  .date1 span {
-    font-size: 2.25rem;
-  }
-  .content_inner {
-    flex-direction: column;
-  }
-  .content-left,
-  .content-right {
-    width: 100%;
-  }
-  .c1 ul {
-    width: 100%;
-    height: 310px;
-  }
-  .content_inner {
-    height: 100vh;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .content-left,
-  .content-right {
-    width: 100%;
-  }
-  .content-right {
-    top: 350px;
-  }
-  .c1 h4 {
+    width: 27%;
     font-size: 3.5rem;
   }
   .c1 ul li a {
