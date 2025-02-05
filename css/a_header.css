@@ -126,7 +126,7 @@
   border-bottom: 2px solid #ddd;
 }
 /* 모바일용 메뉴 */
-.mobile-nav{
+.mobile-nav {
   position: fixed;
   display: none;
   top: 0;
@@ -137,65 +137,65 @@
   font-size: 20px;
   /* z-index: 99999999; */
 }
-.mobile-nav > h4{
+.mobile-nav > h4 {
   font-size: 3.5rem;
   padding: 10px;
 }
-.mobile-nav .snb{
+.mobile-nav .snb {
   background-color: #168bd6;
 }
-.snb ul li{
-  padding: 10px; 
+.snb ul li {
+  padding: 10px;
 }
-.snb ul li:hover a{
+.snb ul li:hover a {
   text-decoration: underline;
 }
-.snb ul li a{
+.snb ul li a {
   font-size: 2.2rem;
   color: #fff;
 }
-.mobile-nav .snb .mb_util{
+.mobile-nav .snb .mb_util {
   display: flex;
   justify-content: space-around;
 }
-.mobile-nav .gnb_wrap{
+.mobile-nav .gnb_wrap {
   height: 85%;
   overflow-y: auto;
 }
-.mobile-nav .gnb_wrap .gnb{
+.mobile-nav .gnb_wrap .gnb {
   display: flex;
   flex-direction: column;
   /* height: 2500px; */
 }
-.mobile-nav .gnb_wrap .gnb > li{
-border-bottom: 2px solid #ddd;
+.mobile-nav .gnb_wrap .gnb > li {
+  border-bottom: 2px solid #ddd;
 }
-.mobile-nav .gnb_wrap .gnb > li:hover{
+.mobile-nav .gnb_wrap .gnb > li:hover {
   border-bottom: 2px solid #168bd6;
 }
-.mobile-nav .gnb_wrap .gnb > li > a{
+.mobile-nav .gnb_wrap .gnb > li > a {
   /* display: block; */
   /* width: 100%; */
   margin: 15px 10px;
   font-size: 2.5rem;
 }
-.mobile-nav .gnb_wrap .gnb > li:hover > a{
+.mobile-nav .gnb_wrap .gnb > li:hover > a {
   color: #168bd6;
 }
-.gnb .mb_depth2{
+.gnb .mb_depth2 {
   display: none;
   background-color: #eee;
   /* margin: 10px 0; */
   padding-bottom: 10px;
 }
-.gnb .mb_depth2 > li{
+.gnb .mb_depth2 > li {
   margin: 0 10px;
   padding-top: 10px;
 }
-.gnb .mb_depth2 > li:hover > a{
+.gnb .mb_depth2 > li:hover > a {
   color: #168bd6;
 }
-.gnb .mb_depth2 > li > a{
+.gnb .mb_depth2 > li > a {
   font-size: 2.2rem;
 }
 /* 닫기버튼 */
@@ -207,7 +207,7 @@ border-bottom: 2px solid #ddd;
   cursor: pointer;
 }
 @media screen and (max-width: 900px) {
-  .header_bottom .menu .gnb > li > a{
+  .header_bottom .menu .gnb > li > a {
     font-size: 2.25rem;
   }
 }
@@ -247,12 +247,12 @@ border-bottom: 2px solid #ddd;
   .mobile_header li a img {
     width: 100%;
   }
-  .mobile-nav{
+  .mobile-nav {
     display: block;
   }
 }
-@media screen and (max-width : 390px){
-  .mobile_header_wrap{
+@media screen and (max-width: 390px) {
+  .mobile_header_wrap {
     padding: 20px 0;
   }
 }

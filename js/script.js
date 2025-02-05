@@ -9,6 +9,7 @@ $(document).ready(function () {
       $(this).find(".depth2").stop().slideUp();
     }
   );
+  // 공지사항, 가정통신문 변경
   $(".c1 h4").click(function () {
     $(".c1 h4, .c1 ul").removeClass("on");
     $(this).addClass("on").next("ul").addClass("on");
