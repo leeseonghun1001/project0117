@@ -35,10 +35,10 @@ $(document).ready(function () {
   //모바일 메뉴 세부내용 나타내기.
   // $(".gnb > li").hover(
   //   function () {
-  //     $(this).find(".mb_depth2").stop().slideDown();
+  //     $(this).find(".mb_depth2").stop().slideDown(); // 선택한 메뉴 열기
   //   },
   //   function () {
-  //     $(this).find(".mb_depth2").stop().slideUp();
+  //     $(this).find(".mb_depth2").stop().slideUp(); // 다른 열린 메뉴 닫기
   //   }
   // );
   //모바일 메뉴 세부내용 나타내기.
